@@ -1,21 +1,19 @@
 
-import './App.css'
-import { useState } from 'react'
-function App() {
-  const [count, setCount] = useState(0)
+import TopBar from "./assets/Components/layout/TopBar"
+import Navbar from "./assets/Components/Navbar"
 
+
+
+function App() {
   return (
     <>
-      <section >
-        <button className='bg-purple-500 rounded-full ' onClick={() => setCount((count) => count + 1)}>
-          Count is {count}
-        </button>
-        <button onClick={() => setCount((count) => count - 1)}>
-          DECREMENT {count}
-        </button>
-      </section>
-
-          
+    <TopBar/>
+    <Navbar />
+    <main className="h-screen bg-gray-200 flex items-center justify-center">
+      <h1 className="text-5xl font-blod text-gray-800">
+        Hero Section Coming Soon!
+      </h1>
+    </main>
     </>
   )
 }
