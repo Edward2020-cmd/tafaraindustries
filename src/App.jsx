@@ -11,9 +11,11 @@ import Gallery from "./assets/Components/Gallery"
 function App() {
   return (
     <>
-      <div className="bg-gray-900 flex flex-col gap-12">
+      <div className="bg-gray-950  flex flex-col gap-12">
+        <div>
         <TopBar />
         <Navbar />
+        </div>
         <Hero />
         <AboutUs />
         <Projects />
