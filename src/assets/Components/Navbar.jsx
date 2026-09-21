@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? "bg-gray-900": "bg-white"}`}
+      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? "bg-gray-900": "bg-blue-200"}`}
     
     >
     <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
@@ -34,7 +34,7 @@ const Navbar = () => {
        <a href="/" className="flex flex-col">
        <span className={`text-2xl font-extrabold tracking-wide ${scrolled ? "text-white": "text-gray-900"}`}
        >TAFARA</span>
-       <span className="text-sm uppercase tracking-[4px] text-orange-500">
+       <span className="text-sm uppercase tracking-[4px] text-blue-400">
         INDUSTRIES
        </span>
        </a>
@@ -44,14 +44,14 @@ const Navbar = () => {
           <a 
           key={link.name}
           href={link.href}
-          className={`font-medium transition hover:text-orange-500 ${scrolled ? "text-white": "text-gray-700"}`}
+          className={`font-medium transition hover:text-orange-500 ${scrolled ? "text-white": "text-gray-500"}`}
           >
             {link.name}
           </a>
         ))}
-        <a href="/contact" className="rounde-md bg-orange-600 px-5 py-3 font-semibold text-white transition hover:bg-orange-700"
+        <a href="/contact" className="rounded-5xl rounded bg-blue-400 px-15  font-semibold text-white transition hover:bg-blue-600 m-8"
         >
-          Get a Quote!
+          Get a Quote
         </a>
        </nav>
        {/*Mobile Button*/}

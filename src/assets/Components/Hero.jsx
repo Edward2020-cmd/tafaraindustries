@@ -1,24 +1,118 @@
+import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
+import heroImage from "../../assets/images/heroImage.jpg";
 
-
-function Hero() {
+const Hero = () => {
   return (
-    <div>
+    <section
+      id="home"
+      className="relative mt-8 flex min-h-[90vh] w-full items-center overflow-hidden sm:min-h-screen"
+    >
+      {/* Background Image */}
+      <img
+        src={heroImage}
+        alt="Steel fabrication and welding"
+        className="absolute inset-0 h-full w-full object-cover"
+      />
 
-<section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-dark bg-blend-multiply">
-    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-6 text-4xl font-bold tracking-tighter text-white md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>
-        <p class="mb-8 text-base font-normal text-white md:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 md:space-x-4">
-            <button type="button" class="inline-flex items-center justify-center text-white bg-brand hover:bg-brand-strong box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium rounded-base text-base px-5 py-3 focus:outline-none">
-                Getting started
-                <svg class="w-4 h-4 ms-1.5 -me-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/></svg>
-            </button>
-            <button type="button" class="text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-base px-5 py-3 focus:outline-none">Learn more</button>
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/70"></div>
+
+      {/* Content */}
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+
+        <div className="w-full max-w-4xl">
+
+          {/* Label */}
+          <span className="mb-5 inline-block rounded-full border border-blue-200 bg-black/30 px-4 py-2 text-xs font-semibold uppercase tracking-[2px] text-gray-200 sm:text-sm sm:tracking-wider">
+            Professional Welding & Steel Fabrication
+          </span>
+
+          {/* Heading */}
+          <h1 className="mb-5 text-3xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+            Building South Africa's
+            <span className="mt-2 block text-blue-200">
+              Strongest Steel Solutions
+            </span>
+          </h1>
+
+          {/* Description */}
+          <p className="mb-8 max-w-2xl text-base leading-7 text-gray-300 sm:mb-10 sm:text-lg sm:leading-8">
+            We specialise in custom steel gates, burglar bars, carports,
+            palisade fencing, structural steel fabrication, and professional
+            welding services for residential, commercial, and industrial
+            clients.
+          </p>
+
+          {/* Buttons */}
+          <div className="mb-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:gap-4">
+
+            <a
+              href="#contact"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-blue-400 px-7 py-4 font-semibold text-white transition duration-300 hover:bg-blue-700 sm:w-auto sm:px-10"
+            >
+              Get a Free Quote
+              <FaArrowRight />
+            </a>
+
+            <a
+              href="tel:+27000000000"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-white/30 bg-white/10 px-7 py-4 font-semibold text-white backdrop-blur-sm transition duration-300 hover:bg-white hover:text-gray-900 sm:w-auto sm:px-10"
+            >
+              <FaPhoneAlt />
+              Call Now
+            </a>
+
+          </div>
+
+          {/* Stats */}
+          <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 border-t border-gray-700 pt-8 sm:mt-14 sm:gap-8 sm:pt-10 md:grid-cols-4">
+
+            {/* Stat 1 */}
+            <div>
+              <h2 className="text-2xl font-bold text-blue-200 sm:text-3xl">
+                500+
+              </h2>
+              <p className="mt-1 text-sm text-gray-300 sm:mt-2 sm:text-base">
+                Projects Completed
+              </p>
+            </div>
+
+            {/* Stat 2 */}
+            <div>
+              <h2 className="text-2xl font-bold text-blue-200 sm:text-3xl">
+                10+
+              </h2>
+              <p className="mt-1 text-sm text-gray-300 sm:mt-2 sm:text-base">
+                Years Experience
+              </p>
+            </div>
+
+            {/* Stat 3 */}
+            <div>
+              <h2 className="text-2xl font-bold text-blue-200 sm:text-3xl">
+                100%
+              </h2>
+              <p className="mt-1 text-sm text-gray-300 sm:mt-2 sm:text-base">
+                Customer Satisfaction
+              </p>
+            </div>
+
+            {/* Stat 4 */}
+            <div>
+              <h2 className="text-2xl font-bold text-blue-200 sm:text-3xl">
+                24/7
+              </h2>
+              <p className="mt-1 text-sm text-gray-300 sm:mt-2 sm:text-base">
+                Support
+              </p>
+            </div>
+
+          </div>
+
         </div>
-    </div>
-</section>
-</div>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;

@@ -11,19 +11,19 @@ function TopBar() {
         {/*leftside*/}
         <div className=" flex items-center gap-6">
             <div className="flex items-center gap-2">
-                <FaPhoneAlt className="text-orange-500"/>
+                <FaPhoneAlt className="text-blue-200"/>
                 <span>+27 81 234 5678</span>
             </div>
             <div className="flex items-center gap-2">
-                <FaEnvelope className="text-orange-500"/>
+                <FaEnvelope className="text-blue-200"/>
                 <span>info@tafaraindustries.co.za</span>
             </div>
  <div className="flex items-center gap-2">
-                <FaMapMarkerAlt className="text-orange-500"/>
+                <FaMapMarkerAlt className="text-blue-200"/>
                 <span>Westonaria Gauteng Westrand</span>
             </div>
              <div className="flex items-center gap-2">
-                <FiClock className="text-orange-500"/>
+                <FiClock className="text-blue-200"/>
                 <span>Mon - Fri : 08:00 - 17:00</span>
             </div>
         </div>
