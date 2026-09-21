@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-gray-400 py-24"
+      className="bg-gray-900  py-24"
     >
      <div className="mx-auto max-w-7xl px-6">
         <div className="grid items-center gap-16 lg:grid-cols-2">
@@ -34,9 +34,9 @@ const About = () => {
               About Tafara Industries
             </p>
 
-            <h2 className="mt-4 text-4xl font-bold leading-tight text-gray-900 md:text-5xl">
+            <h2 className="mt-4 text-4xl font-bold leading-tight text-blue-200 md:text-5xl">
               Building Strong Steel
-              <span className="block text-orange-600">
+              <span className="block text-blues-200">
                 Solutions That Last
               </span>
             </h2>
@@ -106,7 +106,7 @@ const About = () => {
 
             <a
               href="#services"
-              className="mt-10 inline-flex rounded-lg bg-orange-600 px-8 py-4 font-semibold text-white transition hover:bg-orange-700"
+              className="mt-10 inline-flex rounded-lg bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-orange-700"
             >
               Explore Our Services
             </a>

@@ -82,11 +82,11 @@ const Projects = () =>  {
       <div className="mx-auto items-center justify-center">
         {/* Heading */}
         <div className="text-center">
-          <p className="mt-8 text-center text-orange-600 md:text-5xl font-semibold font-bold uppercase">
+          <p className="mt-8 text-center text-blue-200 md:text-5xl font-semibold font-bold uppercase">
             Our Projects
           </p>
 
-          <h2 className="mt-14 text-4xl font-bold text-gray-900 md:text-2xl">
+          <h2 className="mt-14 text-4xl font-bold text-blue-200 md:text-2xl">
             Built With Precision
           </h2>
 
@@ -105,7 +105,7 @@ const Projects = () =>  {
               className={`rounded-3xl px-5 py-2.5 text-sm font-semibold transition px-6 ${
                 activeCategory === category
                   ? "bg-blue-200 text-white"
-                  : "bg-blue-200 text-gray-700 hover:bg-orange-100 hover:text-blue-300 mb-10"
+                  : "bg-gray-800 text-blue-200 hover:bg-blue-600 hover:text-blue-300 mb-10 hover:text-white"
               }`}
             >
               {category}
@@ -141,19 +141,19 @@ const Projects = () =>  {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80" />
 
                   {/* Category */}
-                  <span className="absolute left-5 top-5 rounded-full bg-orange-600 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-white">
+                  <span className="absolute left-5 top-5 rounded-full bg-blue-200 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-gray-400">
                     {project.category}
                   </span>
 
                   {/* Hover button */}
-                  <div className="absolute bottom-5 right-5 flex h-11 w-11 translate-y-4 items-center justify-center rounded bg-orange-600 text-white opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                  <div className="absolute bottom-5 right-5 flex h-11 w-11 translate-y-4 items-center justify-center rounded bg-blue-200 text-gray-400 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                     <FaArrowRight />
                   </div>
                 </div>
 
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white">
+                  <h3 className="text-xl font-bold text-blue-200">
                     {project.title}
                   </h3>
 

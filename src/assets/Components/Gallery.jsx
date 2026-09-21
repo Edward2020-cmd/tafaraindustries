@@ -154,11 +154,11 @@ const Gallery = () => {
 
                 <div className="absolute bottom-0 left-0 right-0 translate-y-6 p-6 opacity-0 transition duration-500 group-hover:translate-y-0 group-hover:opacity-100">
 
-                  <span className="text-sm font-semibold uppercase tracking-wider text-orange-400">
+                  <span className="text-sm font-semibold uppercase tracking-wider text-blue-200">
                     {item.category}
                   </span>
 
-                  <h3 className="mt-2 text-xl font-bold text-white">
+                  <h3 className="mt-2 text-xl font-bold text-blue-200">
                     {item.title}
                   </h3>
 

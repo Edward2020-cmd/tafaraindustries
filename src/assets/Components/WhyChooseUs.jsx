@@ -103,7 +103,7 @@ function WhyChooseUs() {
 
                       {/* Text */}
                       <div className="min-w-0">
-                        <h3 className="text-base font-bold text-white sm:text-lg">
+                        <h3 className="text-base font-bold text-blue-200 sm:text-lg">
                           {reason.title}
                         </h3>
 
