@@ -2,12 +2,12 @@ import { useState } from "react";
 import { AnimatePresence} from "framer-motion";
 import { FaArrowRight} from "react-icons/fa";
 
-import gate1 from "../../assets/images/projects/gate1.jpg";
-import gate2 from "../../assets/images/projects/gate2.jpg";
-import weilding from "../../assets/images/projects/weilding.jpg";
-import carports from "../../assets/images/projects/carports.jpg";
-import balustrades from "../../assets/images/projects/balustrades.jpg";
-import wellding from "../../assets/images/projects/wellding.jpg";
+import gate1 from "../images/projects/gate1.jpg";
+import gate2 from "../images/projects/gate2.jpg";
+import weilding from "../images/projects/weilding.jpg";
+import carports from "../images/projects/carports.jpg";
+import balustrades from "../images/projects/balustrades.jpg";
+import wellding from "../images/projects/wellding.jpg";
 
 
 const categories = [
