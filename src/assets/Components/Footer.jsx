@@ -7,7 +7,7 @@ import {
     FaMapMarkerAlt,
 
 } from "react-icons/fa";
-import tafaralogo from "../../assets/images/logo/tafaralogo.png";
+import tafaralogo from "../images/logo/tafaralogo.png";
 
 
 const Footer = () => {

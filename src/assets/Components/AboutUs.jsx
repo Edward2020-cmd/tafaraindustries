@@ -1,5 +1,5 @@
 
-import aboutImage from "../../../src/assets/images/about.jpg";
+import aboutImage from "../images/about.jpg";
 
 import {
     FaCheckCircle,

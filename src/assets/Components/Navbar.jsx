@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {HiOutlineMenuAlt3, HiOutlineX} from "react-icons/hi";
-import tafaralogo from "../../assets/images/logo/tafaralogo.png";
+import tafaralogo from "../images/logo/tafaralogo.png";
 const navLinks = [
   {name: "Home", href: "/"},
    {name: "About", href: "/"},
