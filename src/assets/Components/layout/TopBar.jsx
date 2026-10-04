@@ -29,13 +29,13 @@ function TopBar() {
         </div>
         {/*rightside*/}
         <div className="flex items-center gap-4">
-            <a href="#" className="transition hover:text-orange-500">
+            <a href="#" className="transition hover:text-blue-400">
                 <FaFacebookF/>
             </a>
-            <a href="#" className="transition hover:text-orange-500">
+            <a href="#" className="transition hover:text-blue-400">
                 <FaInstagram/>
             </a>
-            <a href="#" className="transition hover:text-orange-500">
+            <a href="#" className="transition hover:text-blue-400">
                 <FaWhatsapp/>
             </a>
         </div>

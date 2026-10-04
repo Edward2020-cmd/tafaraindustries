@@ -28,7 +28,7 @@ const Hero = () => {
           </span>
 
           {/* Heading */}
-          <h1 className="mb-5 text-3xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="mb-5 text-3xl font-extrabold leading-tight text-blue-200 sm:text-5xl md:text-6xl lg:text-7xl">
             Building South Africa's
             <span className="mt-2 block text-blue-200">
               Strongest Steel Solutions
@@ -48,7 +48,7 @@ const Hero = () => {
 
             <a
               href="#contact"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-blue-400 px-7 py-4 font-semibold text-white transition duration-300 hover:bg-blue-700 sm:w-auto sm:px-10"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-blue-400 px-7 py-4 font-semibold text-blue-200 transition duration-300 hover:bg-blue-700 sm:w-auto sm:px-10"
             >
               Get a Free Quote
               <FaArrowRight />
@@ -56,7 +56,7 @@ const Hero = () => {
 
             <a
               href="tel:+27000000000"
-              className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-white/30 bg-white/10 px-7 py-4 font-semibold text-white backdrop-blur-sm transition duration-300 hover:bg-white hover:text-gray-900 sm:w-auto sm:px-10"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-white/30 bg-white/10 px-7 py-4 font-semibold text-blue-200 backdrop-blur-sm transition duration-300 hover:bg-white hover:text-blue-400 sm:w-auto sm:px-10"
             >
               <FaPhoneAlt />
               Call Now

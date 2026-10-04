@@ -130,7 +130,7 @@ function WhyChooseUs() {
 
           </motion.div>
 
-          {/* ================= IMAGE ================= */}
+        
           <motion.div
             initial={{ opacity: 0, x: -80 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -146,8 +146,8 @@ function WhyChooseUs() {
                 className="h-[300px] w-full rounded-2xl object-cover shadow-2xl sm:h-[400px] lg:h-[500px]"
               />
 
-              {/* Orange decoration */}
-              <div className="absolute bottom-[-10px] right-[-10px] hidden h-24 w-24 rounded-xl bg-orange-600 sm:h-28 sm:w-28 lg:block lg:h-32 lg:w-32" />
+              
+              
 
             </div>
           </motion.div>

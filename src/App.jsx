@@ -7,7 +7,7 @@ import AboutUs from "./assets/Components/AboutUs"
 import WhyChooseUs from "./assets/Components/WhyChooseUs"
 import Projects from "./assets/Components/Projects"
 import Gallery from "./assets/Components/Gallery"
-
+import Footer from "./assets/Components/Footer"
 function App() {
   return (
     <>
@@ -21,6 +21,7 @@ function App() {
         <Projects />
         <WhyChooseUs />
         <Gallery />
+        <Footer/>
       </div>
     </>
   )

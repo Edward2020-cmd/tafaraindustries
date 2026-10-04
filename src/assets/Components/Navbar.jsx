@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {HiOutlineMenuAlt3, HiOutlineX} from "react-icons/hi";
-
+import tafaralogo from "../../assets/images/logo/tafaralogo.png";
 const navLinks = [
   {name: "Home", href: "/"},
    {name: "About", href: "/"},
@@ -32,11 +32,8 @@ const Navbar = () => {
     <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
        {/*logo*/}
        <a href="/" className="flex flex-col">
-       <span className={`text-2xl font-extrabold tracking-wide ${scrolled ? "text-white": "text-gray-900"}`}
-       >TAFARA</span>
-       <span className="text-sm uppercase tracking-[4px] text-blue-400">
-        INDUSTRIES
-       </span>
+       <img src={tafaralogo} alt="Tafara Industries Logo" className="h-12 w-12 bg-blue-400"/>
+       
        </a>
        {/*Destop Nav*/}
        <nav className="hidden lg:flex items-center gap-8">
@@ -44,7 +41,7 @@ const Navbar = () => {
           <a 
           key={link.name}
           href={link.href}
-          className={`font-medium transition hover:text-orange-500 ${scrolled ? "text-white": "text-gray-500"}`}
+          className={`font-medium transition hover:text-blue-500 ${scrolled ? "text-white": "text-blue-500"}`}
           >
             {link.name}
           </a>
