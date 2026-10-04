@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import gate01 from "../../assets/images/gallery/gate01.jpg";
+import gate01 from "../images/Gallery/gate01.jpg";
 
-import fence from "../../assets/images/gallery/fence.jpg";
-import carpots1 from "../../assets/images/gallery/carpots1.jpg";
+import fence from "../images/gallery/fence.jpg";
+import carpots1 from "../images/gallery/carpots1.jpg";
 
-import Buric from "../../assets/images/gallery/Buric.jpg";
+import Buric from "../images/gallery/Buric.jpg";
 
 const categories = [
   "All",
